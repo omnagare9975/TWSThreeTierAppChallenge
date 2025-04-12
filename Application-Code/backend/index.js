@@ -1,4 +1,6 @@
 const tasks = require("./routes/tasks");
+const dotenv = require('dotenv')
+dotenv.config()
 const connection = require("./db");
 const cors = require("cors");
 const express = require("express");
